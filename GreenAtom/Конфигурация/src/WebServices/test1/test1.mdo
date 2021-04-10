@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c5bcbc9-bc0d-490c-bdc8-cf707897d808">
+  <name>test1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Test1</value>
+  </synonym>
+  <namespace>test1</namespace>
+  <descriptorFileName>test1.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="322673e2-45d8-42e6-a15b-8dc6a0a9cbee">
+    <name>hello</name>
+    <synonym>
+      <key>ru</key>
+      <value>Hello</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>hello</procedureName>
+  </operations>
+</mdclass:WebService>
